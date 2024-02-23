@@ -23,6 +23,12 @@
     position: absolute;
     top: 100%;
     width: 60vw;
+    background-color: var(--branco-banner);
+    font-family: var(--fonte);
+}
+
+#menu {
+    display: none;
 }
 
 .cabecalho__menu:checked~.cabecalho__lista-menu{
@@ -31,12 +37,12 @@
 
 .lista-menu__titulo, .lista-menu__item {
     padding: 1em;
-    background-color: var(--branco-banner);
     text-transform: uppercase;
 }
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__item {
@@ -45,6 +51,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .cabecalho__container {
