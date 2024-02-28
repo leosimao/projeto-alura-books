@@ -1,0 +1,9 @@
+.footer-alura-books {
+    margin: 1em;
+    border-top: 1px solid var(--azul);
+    border-width: 100%;
+}
+
+.footer__titulo {
+    margin: 1em 0 2em .5em
+}
