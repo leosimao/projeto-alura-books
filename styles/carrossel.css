@@ -12,11 +12,6 @@
     width: 100%;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-    display: none;
-}
-
 .swiper-pagination {
     position: initial;
     padding: .5em 0;
@@ -78,4 +73,24 @@
     padding: .5em;
     text-align: center;
     margin-right: 1.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination{
+        padding: 2em 1em;
+    }
+
+    .swiper-slide img {
+        width: 70%;
+        justify-content: center;
+    }
+
+    .card {
+        width: 50%;
+        margin: 2em auto;
+    }
 }
