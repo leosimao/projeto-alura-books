@@ -7,3 +7,43 @@
 .footer__titulo {
     margin: 1em 0 2em .5em
 }
+
+.lista__rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__titulo {
+        font-size: 24px;
+        padding: 0.5em 0;
+        margin: 0;
+    }
+
+    .lista__rodape-titulo {
+        padding: 1em 0;
+        font-size: 14px;
+        color: var(--cinza);
+    }
+    .lista__rodape-item {
+        display: flex;
+        align-items: center;
+        padding: 0.5em;
+        font-size: 14px
+    }
+
+    .lista__rodape-link {
+        text-decoration: none;
+        color: var(--preto);
+        padding: 0.6em;
+    }
+
+    .footer-alura-books {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lista__rodape {
+        display: block;
+    }
+
+}

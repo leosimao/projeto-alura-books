@@ -33,11 +33,11 @@
 @media screen and (min-width: 1024px) {
     .contato {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 
     .contato__input {
-        width: 30%;
+        width: 40%;
     }
 }

@@ -59,6 +59,8 @@
     align-items: center;
 }
 
+@media screen and (min-width: 1024px) {}
+
 .cabecalho__titulo {
     display: none;
 }
