@@ -1,7 +1,6 @@
 .footer-alura-books {
     margin: 1em;
     border-top: 1px solid var(--azul);
-    border-width: 100%;
 }
 
 .footer__titulo {
@@ -46,4 +45,11 @@
         display: block;
     }
 
+}
+
+@media screen and (min-width: 1728px) {
+    .lista__rodape {
+        border-left: 1px solid var(--cinza);
+        padding: 0.5em;
+    }
 }
